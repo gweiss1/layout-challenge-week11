@@ -20,3 +20,75 @@
 		font-weight: 600;
 	}
 }
+
+// web fonts
+
+@mixin nexa {
+	@font-face {
+		font-family: 'Nexa';
+		src: url('../../fonts/nexa-webfonts/Nexa.eot');
+		src: url('../../fonts/nexa-webfonts/Nexa.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/nexa-webfonts/Nexa.woff') format('woff'),
+			url('../../fonts/nexa-webfonts/Nexa.ttf') format('truetype');
+
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		src: url('../../fonts/nexa-webfonts/NexaHeavyItalic.eot');
+		src: url('../../fonts/nexa-webfonts/NexaHeavyItalic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/nexa-webfonts/NexaHeavyItalic.woff') format('woff'),
+			url('../../fonts/nexa-webfonts/NexaHeavyItalic.ttf') format('truetype');
+
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		src: url('../../fonts/nexa-webfonts/NexaBlack.eot');
+		src: url('../../fonts/nexa-webfonts/NexaBlack.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/nexa-webfonts/NexaBlack.woff') format('woff'),
+			url('../../fonts/nexa-webfonts/NexaBlack.ttf') format('truetype');
+
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		src: url('../../fonts/nexa-webfonts/NexaBook.eot');
+		src: url('../../fonts/nexa-webfonts/NexaBook.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/nexa-webfonts/NexaBook.woff') format('woff'),
+			url('../../fonts/nexa-webfonts/NexaBook.ttf') format('truetype');
+
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		src: url('../../fonts/nexa-webfonts/NexaBookItalic.eot');
+		src: url('../../fonts/nexa-webfonts/NexaBookItalic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/nexa-webfonts/NexaBookItalic.woff') format('woff'),
+			url('../../fonts/nexa-webfonts/NexaBookItalic.ttf') format('truetype');
+
+		font-weight: 100;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Nexa';
+		src: url('../../fonts/nexa-webfonts/NexaHeavy.eot');
+		src: url('../../fonts/nexa-webfonts/NexaHeavy.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/nexa-webfonts/NexaHeavy.woff') format('woff'),
+			url('../../fonts/nexa-webfonts/NexaHeavy.ttf') format('truetype');
+
+		font-weight: 600;
+		font-style: normal;
+	}
+
+
+}
