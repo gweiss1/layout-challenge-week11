@@ -1,0 +1,22 @@
+@mixin icon-styling {
+	color: #fff;
+	background-color: $main-red;
+	border-radius: 100%;
+	padding: 5px;
+}
+
+@mixin order-btn {
+	background-color: $main-red;
+	border: none;
+	font-family: $main-font;		
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 4px;
+	padding: 15px 0;
+
+	.fa-angle-right {
+		margin-left: 15px;
+		font-weight: 600;
+	}
+}
